@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شبیه‌ساز آموزشی امنیت وای‌فای</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>شبیه‌ساز آموزشی امنیت وای‌فای</h1>
+        
+        <div class="warning">
+            ⚠️ <strong>توجه:</strong> این ابزار فقط برای اهداف آموزشی است. 
+            هرگونه استفاده غیرقانونی ممنوع است. همیشه قبل از تست، مجوز کتبی بگیرید.
+        </div>
+
+        <div class="password-check">
+            <h3>بررسی کننده قدرت رمزعبور</h3>
+            <input type="password" id="passwordInput" placeholder="رمزعبور را وارد کنید">
+            <button class="btn" onclick="checkPassword()">بررسی امنیت</button>
+            <div id="passwordResult" class="result"></div>
+        </div>
+
+        <div>
+            <h3>شبیه‌سازی آسیب‌پذیری‌های امنیتی</h3>
+            <button class="btn" onclick="simulateWEP()">آسیب‌پذیری WEP</button>
+            <button class="btn" onclick="simulateDictionary()">حمله دیکشنری</button>
+            <button class="btn" onclick="showPrevention()">راهکارهای پیشگیری</button>
+            <div id="simulationResult" class="result"></div>
+        </div>
+
+        <div style="margin-top: 30px;">
+            <h3>گزارش امنیتی</h3>
+            <button class="btn" onclick="generateReport()">ایجاد گزارش آموزشی</button>
+            <div id="reportResult" class="result"></div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
