@@ -1,7 +1,5 @@
 # Check Password wifi
 
-# Check Password wifi
-
 یک توضیح کوتاه و جذاب دربارهٔ پروژه
 
 امنیت خود را حفظ کنید
@@ -62,3 +60,4 @@ index.html
 
 
 [https://github.com/avdeveloper2024/Check-Password-wifi.git]
+
